@@ -1,0 +1,42 @@
+{
+    "tipos_uso": {
+        "residencial": 15000,
+        "comercio": 10000,
+        "educacion": 5000,
+        "salud": 5000,
+        "oficinas": 10000,
+        "parque": 2000
+    },
+    "betas": {
+        "comercio": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "educacion": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "salud": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "oficinas": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+        "parque": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+    },
+    "friccion": {
+        "comercio_b": [1, 1],
+        "educacion_b": [1,1],
+        "salud_b": [1, 1],
+        "oficinas_b": [1, 1],
+        "parque_b": [1, 1],
+        "comercio_m": [1, 1],
+        "educacion_m": [1, 1],
+        "salud_m": [1, 1],
+        "oficinas_m": [1, 1],
+        "parque_m": [1, 1],
+        "comercio_a": [1, 1],
+        "educacion_a": [1, 1],
+        "salud_a": [1, 1],
+        "oficinas_a": [1, 1],
+        "parque_a": [1, 1]
+    },
+
+    "paths": {
+        "zonas": "../data/shp/manzanas.shp",
+        "od_matrix": "../data/xlsx/od_matrix.xlsx",
+        "output": "../output"
+    },
+
+    "log_path" : "./log"
+}
